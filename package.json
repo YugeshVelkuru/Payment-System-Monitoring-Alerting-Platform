@@ -1,0 +1,14 @@
+{
+  "name": "payment-system-monitoring-alerting-platform",
+  "private": true,
+  "workspaces": ["monitoring-dashboard"],
+  "scripts": {
+    "dev": "npm run dev -w monitoring-dashboard",
+    "build": "npm run build -w monitoring-dashboard",
+    "start": "npm run start -w monitoring-dashboard",
+    "lint": "npm run lint -w monitoring-dashboard"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
